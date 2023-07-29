@@ -1,9 +1,0 @@
-.last-15{
-    width: 200px;margin: 0;
-}
-.dfc{
-    display: flex;flex-direction: column;gap: 5px;
-}
-.agente-img{
-    width: 60px;height: 60px; border-radius: 0.25em;
-}
