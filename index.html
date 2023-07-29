@@ -14,14 +14,22 @@
               <p class='subtitulo'>Valorant PRO tool for analyzing your games!</p>
           </div>
           <div>
-            <a href="ValorantAPI-Frontend/stats.html">
-            <div class='login'>
+            
+            <div class='login' id="statsButton">
               <p>Login with Riot ID</p>
             </div>
-        </a>
+     
             <p class='public-profile'>By login in you accept making your profile public</p>
           </div>
         </div>
       </div>
+
+    <script>
+  // Add an event listener to the button
+  document.getElementById("statsButton").addEventListener("click", function() {
+    // Redirect to the desired path
+    window.location.href = "/ValorantAPI-Frontend/stats.html";
+  });
+</script>
 </body>
 </html>
